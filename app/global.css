@@ -1,3 +1,12 @@
 @import "tailwindcss";
 @import "fumadocs-ui/css/neutral.css";
 @import "fumadocs-ui/css/preset.css";
+
+@theme {
+  /* TODO: ライトのカラーテーマは見直したい */
+  --color-fd-primary: hsl(25 95% 40%);
+}
+
+.dark {
+  --color-fd-primary: hsl(33 100% 50%);
+}
