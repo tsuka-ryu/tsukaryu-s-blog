@@ -2,8 +2,8 @@
 
 import { useId } from "react";
 
-// TODO: 後でかっちょいいアイコンを考える
-export function FumadocsIcon(props: React.SVGProps<SVGSVGElement>) {
+// TODO: svgアニメーションする手書き風文字にしたい気持ち
+export function TsukaryuIcon(props: React.SVGProps<SVGSVGElement>) {
   const id = useId();
   return (
     <svg width="80" height="80" viewBox="0 0 180 180" {...props}>
