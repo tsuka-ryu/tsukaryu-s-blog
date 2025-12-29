@@ -6,6 +6,7 @@
   --spacing-page: 1024px;
   --color-fd-primary: hsl(25 95% 40%);
   --animate-fd-fade-in: fd-fade-in 1000ms ease;
+  --min-height-screen: 100dvh;
 }
 
 .dark {
